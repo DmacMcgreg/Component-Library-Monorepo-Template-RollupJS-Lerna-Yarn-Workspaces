@@ -1,0 +1,7 @@
+node_modules/
+.vscode
+.DS_Store
+packages/**/index.cjs.js
+packages/**/index.es.js
+packages/**/index.css
+storybook-static/
