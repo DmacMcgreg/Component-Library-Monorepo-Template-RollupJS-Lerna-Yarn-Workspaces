@@ -3,6 +3,15 @@ I found it difficult to find a simple and modern monorepo structure for individu
 
 ![image](https://user-images.githubusercontent.com/3266023/56816254-2706ca80-6811-11e9-91ec-661135c049d0.png)
 
+- [Component-Library-Monorepo-Template-RollupJS-Lerna-Yarn-Workspaces](#component-library-monorepo-template-rollupjs-lerna-yarn-workspaces)
+    - [Why a Monorepo?](#why-a-monorepo)
+    - [Lerna](#lerna)
+    - [Semantic Versioning](#semantic-versioning)
+    - [Commitizen](#commitizen)
+    - [RollupJS](#rollupjs)
+    - [Yarn Workspaces](#yarn-workspaces)
+    - [Inspiration and Credits](#inspiration-and-credits)
+
 
 **I will try to make this repository a way for you to learn about Monorepos, and the tools to maintain, version and deploy them**
 
@@ -142,14 +151,4 @@ I found it difficult to find a simple and modern monorepo structure for individu
 
     [Kent C. Dodds - How to Write an Open Source Javascript Library](https://egghead.io/courses/how-to-write-an-open-source-javascript-library)
       Thanks to Kent for giving me the inspiration for commitizen and semantic-release in the first place!
-
-
-- [Component-Library-Monorepo-Template-RollupJS-Lerna-Yarn-Workspaces](#component-library-monorepo-template-rollupjs-lerna-yarn-workspaces)
-    - [Why a Monorepo?](#why-a-monorepo)
-    - [Lerna](#lerna)
-    - [Semantic Versioning](#semantic-versioning)
-    - [Commitizen](#commitizen)
-    - [RollupJS](#rollupjs)
-    - [Yarn Workspaces](#yarn-workspaces)
-    - [Inspiration and Credits](#inspiration-and-credits)
 
