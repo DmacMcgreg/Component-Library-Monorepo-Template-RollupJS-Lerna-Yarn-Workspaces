@@ -101,7 +101,7 @@ I found it difficult to find a simple and modern monorepo structure for individu
 
   ```json
   {
-    "my-package": "~1.0.0" 
+    "my-package": "^1.0.0" 
   }
   ```
 
