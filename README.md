@@ -9,6 +9,9 @@ I found it difficult to find a simple and modern monorepo structure for individu
     - [Semantic Versioning](#semantic-versioning)
     - [Commitizen](#commitizen)
     - [RollupJS](#rollupjs)
+    - [Publishing Packages](#publishing-packages)
+    - [Storybook](#storybook)
+    - [Jest Testing](#jest-testing)
     - [Yarn Workspaces](#yarn-workspaces)
     - [Inspiration and Credits](#inspiration-and-credits)
 
@@ -132,6 +135,26 @@ I found it difficult to find a simple and modern monorepo structure for individu
   Each individual component package can now be responsible for importing the function, and calling it with some specific details about itself, such as the entry point file name.
 
   We can then create a build.js script which will invoke lerna to run rollup build on each individual package. We have configured rollup to spit out  .cjs.js and .es.js files, which will be good for NodeJS and the browser.
+
+### Publishing Packages
+
+  All that is needed to publish the packages that have changed is the following:
+    1. Ensure every relevant commit has been done using commitizen
+    2. run `npm run lerna:publish`
+
+  Lerna will automatically detect which packages have changed, and will publish them to the npm repo for each package according to its name in package.json file.
+
+
+### Storybook
+
+  I have included a storybook instance for you to test your components.
+  `npm run storybook` to start
+
+  Just create a new file `*.stories.js` inside of stories (where * is the name of your story)
+
+### Jest Testing
+
+  I have included Jest, a config, and a babel setup to go ahead and get started testing!
 
 ### Yarn Workspaces
 
