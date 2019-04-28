@@ -5,3 +5,5 @@ packages/**/index.cjs.js
 packages/**/index.es.js
 packages/**/index.css
 storybook-static/
+.idea/
+README.html
