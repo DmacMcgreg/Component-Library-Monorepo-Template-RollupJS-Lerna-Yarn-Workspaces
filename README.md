@@ -170,8 +170,8 @@ I found it difficult to find a simple and modern monorepo structure for individu
     I had a good vision as to how I wanted to accomplish this monorepo, and I found that Telus had already a great implementation, but without the documentation. 
     After some research, I came to my own conclusions that Commitizen was the magic that would be needed to allowing a CI pipeline to version all the packages automatically, and then alter I saw that TDS had come to the same conclusion.
 
-    [Australian Government Design System](https://designsystem.gov.au/)
+  [Australian Government Design System](https://designsystem.gov.au/)
 
-    [Kent C. Dodds - How to Write an Open Source Javascript Library](https://egghead.io/courses/how-to-write-an-open-source-javascript-library)
+  [Kent C. Dodds - How to Write an Open Source Javascript Library](https://egghead.io/courses/how-to-write-an-open-source-javascript-library)
       Thanks to Kent for giving me the inspiration for commitizen and semantic-release in the first place!
 
